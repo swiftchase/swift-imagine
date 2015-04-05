@@ -1,0 +1,28 @@
+{
+  "name": "swiftchase/swift-imagine",
+  "description": "Makes the Imagine image manipulation library available as Zend Framework 2 service, and adds more metadata readers",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": [
+    "zf2", "image", "imagine", "photo", "exif", "iptc", "service"
+  ],
+  "homepage": "https://github.com/swiftchase/swift-imagine",
+  "authors": [
+    {
+      "name": "Marcus Welz",
+      "email": "marcus@swiftchase.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "imagine/imagine": "~0.6.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "SwiftImagine": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
